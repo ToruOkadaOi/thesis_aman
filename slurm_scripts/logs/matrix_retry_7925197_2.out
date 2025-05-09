@@ -1,0 +1,14 @@
+================================================================================
+JobID = 7975706
+User = papantonis1, Account = scc_users
+Partition = medium, Nodelist = amp001
+================================================================================
+[Tue Apr 29 11:10:36 CEST 2025] Starting chr3 at 5kb resolution
+============ Job Information ===================================================
+Submitted: 2025-04-28T10:34:43
+Started: 2025-04-29T11:10:13
+Ended: 2025-05-01T11:10:32
+Elapsed: 2881 min, Limit: 2880 min, Difference: -1 min
+CPUs: 1, Nodes: 1
+Estimated Consumption: 48.02 core-hours
+================================================================================
