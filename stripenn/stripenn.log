@@ -1,0 +1,12 @@
+cool: /usr/users/papantonis1/aman/microc_data/nadine_macro/ctrl-MNase-R1-filtered.mcool::resolutions/5000
+out: /usr/users/papantonis1/aman/microc_project/loop_calling_premade_hic/stripenn/
+norm: KR
+chrom: all
+canny: 2.0
+minL: 10
+maxW: 8
+maxpixel: 0.95,0.96,0.97,0.98,0.99
+num_cores: 48
+pvalue: 0.1
+mask: 0
+blur filter: 3
