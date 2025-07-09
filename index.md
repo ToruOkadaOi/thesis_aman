@@ -1,8 +1,9 @@
-# Welcome to my site\nThis is rendered with Jekyll and the Minima theme.
+# Welcome to my site dedicated to my thesis work
+##### rendered with cayman
 
 ## Project Title and Overview
 ### Translational Epigenomics in 3D Genome Architecture
-### Papantonis lab
+### (Papantonis lab)[https://papantonislab.eu]
 
 Integration of RNA-Seq and Micro-C to understand loop dynamics under PRC2 inhibition.
 
@@ -17,5 +18,7 @@ To be updated
 - Stripes - Stripenn
 
 ## RNA-Seq Analysis
+Gene body analysis - DESeq2
+Intron & Exon - iRNASeq
 
 ## ML Modeling
