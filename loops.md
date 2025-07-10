@@ -1,3 +1,8 @@
+---
+layout: default
+title: Loops
+---
+
 # Chapter 1:
 
 # Architectural study in individual conditions i.e Control and eed mutant
