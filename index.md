@@ -15,6 +15,10 @@ To be updated
 
 #### Data
 
+## Chapters
+
+- Chapter.1 - [Architectural changes](loops.md)
+
 ## Micro-C and Loop Analysis
 - QC & .pairs file generation - [documentation](https://micro-c.readthedocs.io/en/latest/fastq_to_bam.html)
 - Loop calling via [Mustache](https://github.com/ay-lab/mustache), [Cooltools-dots](https://cooltools.readthedocs.io/en/latest/notebooks/dots.html), [Peakachu](https://github.com/tariks/peakachu)
@@ -31,10 +35,13 @@ GO & Genomic coordinates - clusterProfiler, GSEA.py & TxDb
 ## ML Modeling
 Logistic Regression & Gradient Boost Model
 
-## Questions
+## Contact
+
+aman.nalakath@tum.de or amanshamil@protonmail.com
 
 ### to-dos
 
-#### HiGlass server hosted at - to be added
+#### HiGlass server for visualizing loops - 
+to be added...
 
 # ![Loophole High Five](./brooklyn-nine-nine-loophole.gif)
