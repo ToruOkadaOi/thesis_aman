@@ -1,4 +1,4 @@
-# ![Loophole High Five](https://media.tenor.com/images/1ef9a35f5c156314fb2c45736d7bfc49/tenor.gif)
+# ![Loophole High Five](./brooklyn-nine-nine-loophole.gif)
 Rendered with Cayman
 
 ## Project Title and Overview
