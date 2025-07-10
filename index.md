@@ -1,9 +1,11 @@
-# ![Loophole High Five](./brooklyn-nine-nine-loophole.gif)
+# 
 Rendered with Cayman
 
 ## Project Title and Overview
 ### Translational Epigenomics in 3D Genome Architecture
-### Worked done at [Papantonis lab](https://papantonislab.eu), Universitätsmedizin Göttingen
+### Work done at [Papantonis lab](https://papantonislab.eu), Universitätsmedizin Göttingen
+Genome-wide analysis of H3K27me3 distribution and its functional correlation with 3D genome
+architecture in human cells
 
 Integration of Micro-C & RNA-Seq to understand loop dynamics under PRC2 inhibition.
 
@@ -34,3 +36,5 @@ Logistic Regression & Gradient Boost Model
 ### to-dos
 
 #### HiGlass server hosted at - to be added
+
+# ![Loophole High Five](./brooklyn-nine-nine-loophole.gif)
