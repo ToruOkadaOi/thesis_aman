@@ -1,4 +1,4 @@
-## How PRC2 Loss Reprograms the 3D Genome
+<!-- Removed top-level header to avoid duplicate title -->
 Rendered with Cayman
 
 ## Project Title and Overview
