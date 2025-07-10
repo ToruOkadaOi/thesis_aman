@@ -1,4 +1,3 @@
-# LOOPY
 ## How PRC2 Loss Reprograms the 3D Genome
 Rendered with Cayman
 
