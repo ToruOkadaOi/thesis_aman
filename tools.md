@@ -1,6 +1,6 @@
-Methodological Framework: Tool Performance and Optimization
+# Methodological Framework: Tool Performance and Optimization
 
-# How each tools work
+## How each tools work
 
 #### Mustache
 
