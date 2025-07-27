@@ -1,15 +1,13 @@
 <!-- Removed top-level header to avoid duplicate title -->
 *Rendered with Cayman* *| Work in progress*
 
-## Project Title and Overview
+## Project Title
 
-**Genome-wide analysis of H3K27me3 distribution and its functional correlation with 3D genome architecture in human cells**
+**Genome-wide profiling of H3K27me3 and its functional integration with 3D genome architecture in human cells**
 
-### *Translational Epigenomics in 3D Genome Architecture*
+### Location
 
-**Work done at** [**Papantonis Lab**](https://papantonislab.eu), *Universitätsmedizin Göttingen*
-
-Integration of Micro-C & RNA-Seq to understand loop dynamics under PRC2 inhibition.
+[**Papantonis Lab**](https://papantonislab.eu), *Universitätsmedizin Göttingen*
 
 ## Background
 
@@ -17,13 +15,19 @@ To be updated
 
 #### Data
 
+- **Micro-C, CUT&Tag, RNA-Seq**: In-house generated datasets  
+- **ATAC-Seq**: Public dataset from Lyu, Huijue, et al.  
+  *“GATA6 is a novel regulator of gene expression and 3D genome in colorectal cancer.”*  
+  *Cancer Research 84.6_Supplement (2024): 4401–4401*  
+- **ChIP-Seq**: Retrieved from [ChIP-Atlas](https://chip-atlas.org) using query: `DLD-1`
+
 ## Chapters
 
 - Chapter.1 - [Chromatin Architecture in Wild-Type and EED-Mutant Conditions](loops.md)
 - Chapter.2 - [Differential analysis - How stable is chromatin architecture in the absence of PRC2?](diff.md)
 - Chapter.3 - [Integrating Chromatin Architecture with Transcriptional Dynamics](deg.md)
-- Chapter.4 - [Methodological Framework: Tool Performance and Optimization](tools.md)
-- Chapter.5 - [Exploratory Analyses and Ancillary Discoveries](aux.md)
+- Chapter.4 - [Methodological Framework: Tools and Optimization](tools.md)
+- Chapter.5 - [Exploratory Analyses](aux.md)
 
 ### Micro-C and Loop Analysis
 
@@ -42,7 +46,7 @@ To be updated
 |--------------------------|---------|
 | Gene body analysis       | DESeq2 |
 | Intron & Exon            | [iRNASeq](https://academic.oup.com/nar/article/43/6/e40/2453418?login=true) |
-| GO & Genomic coordinates | clusterProfiler, GSEA.py, TxDb |
+| GO & Genomic coordinates | [clusterProfiler](https://bioconductor.org/packages/devel/bioc/html/clusterProfiler.html), [TxDb](https://bioconductor.org/packages/devel/bioc/vignettes/GenomicFeatures/inst/doc/GenomicFeatures.html), [MyGene.py](https://github.com/biothings/mygene.py) |
 
 
 ## ML Modeling
@@ -61,7 +65,11 @@ In case of questions about the code or the study, please reach out [here](aman.n
 
 ### TO DOs
 
-HiGlass server for visualizing loops - 
-to be added...
+- HiGlass server 
+- Nextflow for ML feature table generation
+
+---
+
+Turns out PRC2 wasn't repressing genes…it was just trying to exploit some chromatin loop holes.
 
 # ![Loophole High Five](./brooklyn-nine-nine-loophole.gif)
