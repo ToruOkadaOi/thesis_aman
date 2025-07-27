@@ -1,3 +1,11 @@
+<script>
+  const link = document.createElement('link');
+  link.rel = 'shortcut icon';
+  link.type = 'image/x-icon';
+  link.href = '/favicon.ico';
+  document.head.appendChild(link);
+</script>
+
 <!-- Removed top-level header to avoid duplicate title -->
 *Rendered with Cayman* *| Work in progress*
 
