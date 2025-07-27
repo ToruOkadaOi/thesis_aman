@@ -19,7 +19,7 @@ To be updated
 
 ## Chapters
 
-- Chapter.1 - [Architectural changes](loops.md)
+- Chapter.1 - [Chromatin Architecture in Wild-Type and EED-Mutant Conditions](loops.md)
 - Chapter.2 - [Differential analysis - How stable is chromatin architecture in the absence of PRC2?](diff.md)
 - Chapter.3 - [Integrating Chromatin Architecture with Transcriptional Dynamics](deg.md)
 - Chapter.4 - [Methodological Framework: Tool Performance and Optimization](tools.md)
