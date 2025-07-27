@@ -1,3 +1,5 @@
+# Exploratory Analyses
+
 ## Differential Contact Maps Based on Gene Expression Changes
 
 Is there a tool that can generate a **differential chromatin contact map** based on expression changes, given that a control condition and its corresponding contact matrix are available?
