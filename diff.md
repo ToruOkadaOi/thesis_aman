@@ -1,4 +1,4 @@
-## Differential Analysis — How Stable is Chromatin Architecture in the Absence of PRC2?
+# Differential Analysis — How Stable is Chromatin Architecture in the Absence of PRC2?
 
 To assess how chromatin architecture responds to the loss of PRC2, I quantified changes in chromatin loops by merging loop sets from control and eed mutant DLD1 cells. The loops were classified as shared, gained, or lost using a 5 kb fuzzy overlap threshold (bedtools pairtopair, type=both).
 
