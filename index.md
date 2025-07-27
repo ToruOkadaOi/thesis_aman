@@ -23,11 +23,12 @@ To be updated
 
 ## Chapters
 
-- Chapter.1 - [Chromatin Architecture in Wild-Type and EED-Mutant Conditions](loops.md)
-- Chapter.2 - [Differential analysis - How stable is chromatin architecture in the absence of PRC2?](diff.md)
-- Chapter.3 - [Integrating Chromatin Architecture with Transcriptional Dynamics](deg.md)
-- Chapter.4 - [Methodological Framework: Tools and Optimization](tools.md)
-- Chapter.5 - [Exploratory Analyses](aux.md)
+> - Chapter.1 - [Chromatin Architecture in Wild-Type and EED-Mutant Conditions](loops.md)
+> - Chapter.2 - [Differential analysis - How stable is chromatin architecture in the absence of PRC2?](diff.md)
+> - Chapter.3 - [Integrating Chromatin Architecture with Transcriptional Dynamics](deg.md)
+> - Chapter.4 - [Methodological Framework: Tools and Optimization](tools.md)
+> -  Chapter.5 - [Exploratory Analyses](aux.md)
+
 
 ### Micro-C and Loop Analysis
 
@@ -63,13 +64,18 @@ In case of questions about the code or the study, please reach out [here](aman.n
 
 ## References
 
+## Acknowledgments
+
+Many thanks to everyone at Papantonis lab. Also grateful for support from [Johannes lab](https://www.johanneslab.org/home)
+
 ### TO DOs
 
 - HiGlass server 
 - Nextflow for ML feature table generation
+- [Ablation testing](https://medium.com/@rajilini/ablation-study-what-is-it-in-machine-learning-0a1d362b366d) in models
 
 ---
-
-Turns out PRC2 wasn't repressing genes…it was just trying to exploit some chromatin loop holes.
-
+```
+ Turns out PRC2 wasn't repressing genes…it was just trying to exploit some chromatin loop holes.
+```
 # ![Loophole High Five](./brooklyn-nine-nine-loophole.gif)
