@@ -14,3 +14,4 @@ backup/
 *.log
 __pycache__/
 .ipynb_checkpoints/
+annotations/gencode.v48.chr_patch_hapl_scaff.annotation.gtf
