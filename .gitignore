@@ -1,0 +1,34 @@
+# Ignore large binary / data outputs
+*.bw
+*.bam
+*.bed
+*.bedpe
+*.fastq.gz
+*.hic
+*.cool
+*.mcool
+*.npz
+*.npy
+*.gz
+*.pdf
+*.png
+*.csv
+*.tsv
+*.json
+*.fasta
+*.fa
+*.log
+*.out
+__pycache__/
+# Ignore tool-specific heavy directories
+CGLoop/
+RBP1/
+SIP_results/ctrl_10kb/
+SIP_results/rpb1_10kb/
+SIP_results/test/
+ab_juicer_eig/
+chr_all_sample/
+fithic_results/
+git_page/
+mustache/merged_loops/
+trans_c/
