@@ -1,0 +1,23 @@
+#!/bin/bash
+#SBATCH -p medium
+#SBATCH -c 6
+#SBATCH --mem=48G
+#SBATCH -t 2:00:00
+#SBATCH --job-name=feat_count
+#SBATCH -o fc_%j.out
+#SBATCH -e fc_%j.err
+
+source ~/.bashrc
+conda activate deseq_aman
+
+featureCounts \
+  -T 6 \
+  -p \
+  -s 2 \
+  -t exon \
+  -g gene_id \
+  -a /usr/users/papantonis1/aman/rnaseq_data/gencode.v48.chr_patch_hapl_scaff.annotation.gtf \
+  -o /usr/users/papantonis1/aman/rnaseq_data/featurecounts_gene_counts.txt \
+  /usr/users/papantonis1/aman/rnaseq_data/star_results/*_Aligned.sortedByCoord.out.bam
+
+echo "Done"

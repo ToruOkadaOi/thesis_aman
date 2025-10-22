@@ -1,0 +1,15 @@
+Status	/usr/users/papantonis1/aman/rnaseq_data/star_results/S55_Aligned.sortedByCoord.out.bam	/usr/users/papantonis1/aman/rnaseq_data/star_results/S56_Aligned.sortedByCoord.out.bam	/usr/users/papantonis1/aman/rnaseq_data/star_results/S57_Aligned.sortedByCoord.out.bam	/usr/users/papantonis1/aman/rnaseq_data/star_results/S58_Aligned.sortedByCoord.out.bam	/usr/users/papantonis1/aman/rnaseq_data/star_results/S59_Aligned.sortedByCoord.out.bam	/usr/users/papantonis1/aman/rnaseq_data/star_results/S60_Aligned.sortedByCoord.out.bam
+Assigned	39127597	45290745	51407580	54462901	50387273	40741131
+Unassigned_Unmapped	0	0	0	0	0	0
+Unassigned_Read_Type	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0
+Unassigned_MultiMapping	110338417	63667325	27224174	42504579	22404558	16456042
+Unassigned_Secondary	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0
+Unassigned_NoFeatures	22817194	25194856	37334186	27344491	37757455	29885877
+Unassigned_Overlapping_Length	0	0	0	0	0	0
+Unassigned_Ambiguity	2506909	2927112	2847779	2647065	2914474	2955317

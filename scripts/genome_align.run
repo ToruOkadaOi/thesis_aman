@@ -1,0 +1,31 @@
+#!/bin/bash
+#SBATCH -p medium
+#SBATCH -t 8:00:00
+#SBATCH -c 8
+#SBATCH --mem=64G
+#SBATCH --job-name=star_align_aman
+#SBATCH -o star_align_%j.out
+#SBATCH -e star_align_%j.err
+
+source ~/.bashrc
+conda activate star_aman
+
+TRIMMED_DIR=/usr/users/papantonis1/aman/rnaseq_data/trimmed
+OUT_DIR=/usr/users/papantonis1/aman/rnaseq_data/star_results
+STAR_INDEX=/usr/users/papantonis1/aman/rnaseq_data/star_index
+
+for SAMPLE in S55 S56 S57 S58 S59 S60; do
+  R1=${TRIMMED_DIR}/${SAMPLE}_R1_trimmed.fastq.gz
+  R2=${TRIMMED_DIR}/${SAMPLE}_R2_trimmed.fastq.gz
+
+  STAR --runThreadN 8 \
+       --genomeDir "$STAR_INDEX" \
+       --readFilesIn "$R1" "$R2" \
+       --readFilesCommand zcat \
+       --outFileNamePrefix "${OUT_DIR}/${SAMPLE}_" \
+       --outSAMtype BAM SortedByCoordinate \
+       --quantMode GeneCounts
+
+done
+
+echo "DONE"

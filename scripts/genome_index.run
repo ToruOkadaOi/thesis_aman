@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH -p medium
+#SBATCH -t 5:00:00 
+#SBATCH -c 8 
+#SBATCH --mem 48G
+#SBATCH --job-name STAR_index_aman
+#SBATCH -o %j.out
+#SBATCH -e %j.err
+
+source ~/anaconda3/etc/profile.d/conda.sh
+conda activate star_aman
+
+STAR --runThreadN 8 \
+     --runMode genomeGenerate \
+     --genomeDir /usr/users/papantonis1/aman/rnaseq_data/star_index \
+     --genomeFastaFiles /usr/users/papantonis1/aman/microc_project/refgen/hg38.fa \
+     --sjdbGTFfile /usr/users/papantonis1/aman/rnaseq_data/gencode.v48.chr_patch_hapl_scaff.annotation.gtf \
+     --sjdbOverhang 100
+
+echo "DONE"

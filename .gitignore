@@ -1,0 +1,16 @@
+# Large data and intermediate outputs
+raw_reads/
+qc_alignment/
+iRNA-v1.1/
+localmade_irna/
+irnaseq_results/
+backup/
+*.fastq.gz
+*.bam
+*.zip
+*.tar
+*.out
+*.err
+*.log
+__pycache__/
+.ipynb_checkpoints/
